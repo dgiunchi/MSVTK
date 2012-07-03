@@ -15,7 +15,6 @@
 // Includes list
 
 #include "msvQtWidgetsExport.h"
-#include <QObject.h>
 #include <vtkRenderer.h>
 
 
