@@ -13,8 +13,9 @@
 #define msvQVTKButtons_H
 
 #include "msvQtWidgetsExport.h"
+#include <QObject>
 
-#include <QObject.h>
+//forward declarations
 class vtkButtonWidget;
 class vtkButtonCallback;
 class vtkButtonHighLightCallback;
