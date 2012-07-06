@@ -81,6 +81,9 @@ public:
     
     /// Object destructor.
     virtual ~msvQVTKButtons();
+    
+    /// retrieve button pointer.
+    vtkButtonWidget *button();
 
 signals:
     /// signal launched with shown tooltip
