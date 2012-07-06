@@ -1,8 +1,8 @@
 /*
  *  msvQVTKButtons.h
- *  VTKButtons
+ *  
  *
- *  Created by Roberto Mucci on 13/01/12.
+ *  Created by Daniele Giunchi on 13/01/12.
  *  Copyright 2011 B3C. All rights reserved.
  *
  *  See License at: http://tiny.cc/QXJ4D
@@ -13,6 +13,7 @@
 #define msvQVTKButtons_H
 
 #include "msvQtWidgetsExport.h"
+
 #include <QObject>
 
 //forward declarations
@@ -80,6 +81,9 @@ public:
     
     /// Object destructor.
     virtual ~msvQVTKButtons();
+    
+    /// retrieve button pointer.
+    vtkButtonWidget *button();
 
 signals:
     /// signal launched with shown tooltip
