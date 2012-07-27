@@ -50,10 +50,10 @@ if(NOT DEFINED VTK_DIR)
 
   #set(revision_tag "v5.8.0")
   #set(revision_tag fea2d622cf01dfd22f727330dbace97d4af892db)
-  set(revision_tag 1542ba1809f7d87c6c88015c056af39084d00ea4)
-  if(${proj}_REVISION_TAG)
-    set(revision_tag ${${proj}_REVISION_TAG})
-  endif()
+  #set(revision_tag 1542ba1809f7d87c6c88015c056af39084d00ea4)
+  #if(${proj}_REVISION_TAG)
+  #  set(revision_tag ${${proj}_REVISION_TAG})
+  #endif()
 
   # Set CMake OSX variable to pass down the external project
   set(CMAKE_OSX_EXTERNAL_PROJECT_ARGS)
