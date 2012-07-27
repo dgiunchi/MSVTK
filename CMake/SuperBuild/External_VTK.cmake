@@ -71,7 +71,7 @@ if(NOT DEFINED VTK_DIR)
     BINARY_DIR ${CMAKE_BINARY_DIR}/${proj}-build
     PREFIX ${proj}${ep_suffix}
     GIT_REPOSITORY ${git_protocol}://github.com/MSV-Project/VTK.git
-    GIT_TAG ${revision_tag}
+    #GIT_TAG ${revision_tag}
     UPDATE_COMMAND ""
     INSTALL_COMMAND ""
     CMAKE_GENERATOR ${gen}
