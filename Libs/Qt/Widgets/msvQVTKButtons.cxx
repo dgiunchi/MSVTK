@@ -218,8 +218,10 @@ void msvQVTKButtons::update() {
     }
     
     if(m_ShowButton) {
+        button()->GetRepresentation()->SetVisibility(true);
         button()->EnabledOn();
     } else {
+        button()->GetRepresentation()->SetVisibility(false);
         button()->EnabledOff();
     }
     
