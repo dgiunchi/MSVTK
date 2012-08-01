@@ -148,7 +148,7 @@ void msvQVTKButtons::setCurrentRenderer(vtkRenderer *renderer) {
     }
 }
 
-void msvQVTKButtons::setIconFileName(QString &iconFileName) {
+void msvQVTKButtons::setIconFileName(QString iconFileName) {
     m_IconFileName = iconFileName;
     QImage image;
     image.load(m_IconFileName);
@@ -240,6 +240,6 @@ void msvQVTKButtons::setFlyTo(bool active) {
     update();
 }
 
-void msvQVTKButtons::setToolTip(QString &text) {
+void msvQVTKButtons::setToolTip(QString text) {
     m_Tooltip = text;
 }
